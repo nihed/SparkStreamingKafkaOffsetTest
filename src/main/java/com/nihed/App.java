@@ -27,7 +27,7 @@ public class App
         kafkaParams.put("key.deserializer", StringDeserializer.class);
         kafkaParams.put("value.deserializer", StringDeserializer.class);
         kafkaParams.put("group.id", "hello2");
-        //kafkaParams.put("auto.offset.reset", "la@test");
+        //kafkaParams.put("auto.offset.reset", "latest");
         kafkaParams.put("enable.auto.commit", false);
         scala.Array array;
 
